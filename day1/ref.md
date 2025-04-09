@@ -11,5 +11,19 @@ Git: https://git-scm.com/downloads
 Python: https://www.python.org/downloads/
 Pycharm Community edition: https://www.jetbrains.com/pycharm/download/?section=windows
 
+Git commands
+Git 
+ - Creating git repository
+     - git init
+ - Adding files/folder to git staging area
+     - git add .
+     - git add demo.py
+ - git commit -m "changes related to feature1"
+ - commit history
+     - git log
+ - git remote add origin <git repo url >    
+ - git remote -v
+ - git push origin master
+
 git config --global user.name "Testuser"
 git config --global user.email "duraiatpeers@gmail.com"
