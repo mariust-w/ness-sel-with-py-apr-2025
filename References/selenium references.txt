@@ -1,0 +1,11 @@
+
+Selenium
+https://selenium.dev
+
+https://www.browserstack.com/selenium
+
+Xpath
+https://devhints.io/xpath
+
+CSS
+https://flukeout.github.io/
