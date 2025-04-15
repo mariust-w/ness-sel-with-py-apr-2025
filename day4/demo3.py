@@ -7,3 +7,4 @@ a = getnum_gen(5)
 print(next(a))
 print(next(a))
 print(next(a))
+
