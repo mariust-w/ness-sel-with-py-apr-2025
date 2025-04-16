@@ -14,12 +14,12 @@ import pytest
 from day5.AppData import AppData
 from day5.TestUtil import wait_for_element
 
-
 def test_login():
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get(AppData.base_url)
     driver.maximize_window()
+
     time.sleep(3)
     driver.find_element(By.CSS_SELECTOR,"form > div:nth-child(2) input").send_keys("Admin")
     time.sleep(3)
